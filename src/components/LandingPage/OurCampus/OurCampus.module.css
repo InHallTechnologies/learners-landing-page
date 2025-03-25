@@ -1,0 +1,35 @@
+.ourCampusContainer {
+    padding: 60px 8%;
+    background-color: #17213715;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+}
+
+.outerCarousel {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.innerCarousel {
+    display: flex;
+    gap: 16px;
+}
+
+.carouselItemImage {
+    height: 200px;
+    cursor: pointer;
+}
+
+.imageTitle {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.imageSubTitle {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-top: 2px;
+}

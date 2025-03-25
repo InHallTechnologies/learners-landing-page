@@ -1,0 +1,49 @@
+.whyLearnersContainer {
+    padding: 120px 8%;
+    position: relative;
+    overflow: hidden;
+}
+
+.whyLearnersContainer::after {
+    content: "";
+    background-image: linear-gradient(90deg,  rgba(255, 255, 255, 0.645) 0%, rgba(255, 255, 255, 0.574), rgba(255, 255, 255, 0.086)),
+    url('/landing_illus.png');
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: absolute;
+    width: 900px;
+    height: 400px;
+    background-size: contain;
+    right: -300;
+    top: 250;
+}
+
+.title {
+    font-size: 3rem;
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    width: 4px;
+    height: 70px;
+    background:linear-gradient(-180deg,  #5BA332 0%, #2085F6, #2085F6);
+    position: absolute;
+    left: -20px;
+    top: -10;
+}
+
+.title::before {
+    content: "";
+    width: 4px;
+    height: 70px;
+    background: linear-gradient(180deg, #2085F6 0%, #2085F6, #5BA332);
+    position: absolute;
+    left: -20px;
+    top: 60px;
+}
+
+.content {
+    margin-top: 30px;
+    line-height: 30px;
+}

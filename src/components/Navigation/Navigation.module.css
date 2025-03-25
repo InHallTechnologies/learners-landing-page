@@ -1,0 +1,34 @@
+.navigationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 8%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.navigationListContainer {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    transition-duration: 0.5s ease;
+    
+}
+
+.navigationListContainer .navigationItem {
+    text-decoration: none;
+    font-weight: 500;
+    color: #444;
+    transition: 0.5s ease;
+    font-weight: 600;
+}
+
+
+.navigationListContainer:hover > :not(:hover) {
+    text-decoration: none;
+    opacity: 0.5;
+}

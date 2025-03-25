@@ -1,0 +1,68 @@
+
+.fosteringSkillContainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 60px 8%;
+    
+    background-image: linear-gradient(90deg, #2ce1d8dd 0%,#48b7b2d7 55%, #48B7B1 100%),
+    url('/fostering_skill_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.fosteringSkillContainer::after {
+    content: "";
+    position: absolute;
+    background-image: url('/school_doodles.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    z-index: 1;
+    opacity: 0.15;
+    background-size: 200px;
+    right: 0;
+    filter: invert(100%);
+}
+
+.illustrationContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.fosteringSkillImage {
+    width: 450px;
+    border-radius: 40px;
+}
+
+
+.contentContainer {
+    flex: 1;
+    z-index: 2;
+}
+.sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.contentParagraph {
+    line-height: 24px;
+}
+
+.learnMoreButton {
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    margin-top: 12px;
+    cursor: pointer;
+    background-color: #17223A;
+    color: white;
+    border-radius: 4px;
+}

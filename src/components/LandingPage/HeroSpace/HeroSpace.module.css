@@ -1,0 +1,63 @@
+.heroSpaceContainer {
+    display: flex;
+    min-height: 450px;
+    width: 100%;
+    flex-direction: row;
+    position: relative;
+    margin-top: 20px;
+  
+}
+
+.contentContainer {
+    flex: 1;
+    padding-left: 8%;
+    display: flex   ;
+    flex-direction: column;
+}
+
+
+.topTagline {
+    margin-top: 60px;
+    opacity: 0.6;
+}
+
+.title {
+   margin-top: 10px;
+   font-size: 2.5rem;
+}
+.subTitle {
+    margin-top: 20px;
+}
+
+.applyNowButton {
+    width: 200px;
+    margin-top: 20px;
+    background-color: #5BA332;
+    border: none;
+    padding: 10px 0;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.illustrationContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.illustration {
+    width: 450px;
+    scale: 1.01;
+    position: relative;
+}
+
+.illustrationWrapper {
+    position: relative;
+}
+
