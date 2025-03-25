@@ -17,7 +17,7 @@ const HeroSpace = () => {
 
             <div className={Styles.illustrationContainer}>
                 <div className={Styles.illustrationWrapper}>
-                    <img className={Styles.illustration} alt="Learners Students" src="/intersect.png" />
+                    <img className={Styles.illustration} alt="Learners Students" src="intersect.png" />
                 </div>            
             </div>
         </div>
